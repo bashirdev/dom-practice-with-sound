@@ -6,9 +6,7 @@ for(var i=0; i<drum1.length; i++){
         var btnDrum =this.innerHTML;
 
         switch(btnDrum){
-            case 'V':
-              alert('voice are here when you will click the alphabet only for practice purpose');
-                break;
+            
             case 'G':
                 var audio = new Audio (src='audio/greet.ogg');
                 audio.play();
